@@ -33,7 +33,7 @@
 
   - name: Installing minkube
     yum:
-      name: /root/minikube-latest.x86_64.rpm
+      name: /minikube-latest.x86_64.rpm
       state: present
 
   - name: Starting Minikube
